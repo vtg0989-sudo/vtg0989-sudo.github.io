@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tango's Field Desk</title>
+<meta name="description" content="UAP research, crypto tools and 3D printing guides from Tango (@tango4748): Skywatch Ledger, the Is It a UFO? checker, HODL Hindsight and the Filament Field Guide.">
+<meta property="og:title" content="Tango's Field Desk">
+<meta property="og:description" content="UAP research, crypto calculators and 3D printing guides, all in one place.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vtg0989-sudo.github.io/">
+<meta property="og:image" content="https://vtg0989-sudo.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://vtg0989-sudo.github.io/og.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4798121032462529" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;600;700&family=Space+Mono&display=swap">
+<style>
+/* Layout: a field desk. Name plate, then tools and sites as labelled drawers, newest posts pulled live. */
+:root{
+  --bg:#f2efe8; --surface:#fffdf8; --fg:#1c1b19; --muted:#6a655c; --line:#ddd7cb;
+  --ufo:#0f6e7a; --coin:#3046ff; --print:#c4501b; --ink:#fffdf8;
+  --display:"Big Shoulders Display", "Arial Narrow", system-ui, sans-serif;
+  --body:"Figtree", "Segoe UI", system-ui, sans-serif;
+  --mono:"Space Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141412; --surface:#1d1c19; --fg:#efebe3; --muted:#a9a397; --line:#33312c;
+  --ufo:#4fc3d1; --coin:#8693ff; --print:#f0884f; --ink:#141412; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141412; --surface:#1d1c19; --fg:#efebe3; --muted:#a9a397; --line:#33312c;
+  --ufo:#4fc3d1; --coin:#8693ff; --print:#f0884f; --ink:#141412; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{padding-block:48px 28px}
+header .wrap{display:grid;gap:10px}
+.handle{font:400 13px var(--mono);color:var(--muted)}
+h1{font:900 clamp(52px,11vw,104px)/.86 var(--display);text-transform:uppercase;margin:0;letter-spacing:-.01em}
+.lede{margin:0;font-size:18px;color:var(--muted);max-width:56ch}
+.socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.socials a{font:600 14px var(--body);color:var(--fg);text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px}
+.socials a:hover{border-color:var(--fg)}
+section{padding-block:22px}
+h2{font:700 13px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}}
+.card{display:grid;gap:8px;align-content:start;background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--c);border-radius:6px;padding:18px 18px 16px;text-decoration:none;color:var(--fg);min-width:0;transition:transform .15s}
+.card:hover{transform:translateY(-2px);border-color:var(--c)}
+.card .tag{font:400 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.card h3{font:700 30px/1 var(--display);text-transform:uppercase;margin:0}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.card .latest{font-size:14px;color:var(--fg);border-top:1px dashed var(--line);padding-top:8px;margin-top:4px}
+.card .latest span{display:block;font:400 11px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.ufo{--c:var(--ufo)} .coin{--c:var(--coin)} .print{--c:var(--print)}
+.code{display:flex;flex-wrap:wrap;align-items:center;gap:12px;background:var(--surface);border:1px dashed var(--print);border-radius:6px;padding:16px 18px}
+.code b{font:400 18px var(--mono);letter-spacing:.06em}
+.code p{margin:0;color:var(--muted);font-size:14px;flex:1 1 240px}
+.code a{font-weight:700;color:var(--print)}
+a:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+footer{padding-block:28px 36px;color:var(--muted);font-size:13px}
+footer a{color:var(--muted)}
+@media (prefers-reduced-motion: reduce){.card{transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="handle">@tango4748 · TangoParanormal</span>
+  <h1>Tango's<br>Field Desk</h1>
+  <p class="lede">UAP research, crypto tools and 3D printing guides. Everything I build, in one place.</p>
+  <div class="socials">
+    <a href="https://x.com/tango4748" target="_blank" rel="noopener">X @tango4748</a>
+    <a href="https://www.youtube.com/@TangoParanormal" target="_blank" rel="noopener">YouTube @TangoParanormal</a>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <section>
+    <h2>Tools</h2>
+    <div class="grid">
+      <a class="card coin" href="/hodl-hindsight/">
+        <span class="tag">Crypto calculator</span>
+        <h3>HODL Hindsight</h3>
+        <p>What would your BTC, XRP, ETH or SOL be worth if you'd bought back then? What-if and DCA calculators on real price history.</p>
+      </a>
+      <a class="card ufo" href="/skywatch-ledger/is-it-a-ufo/">
+        <span class="tag">UAP checker</span>
+        <h3>Is it a UFO?</h3>
+        <p>Six questions to find out if your sighting was Starlink, Venus, a drone, or something worth reporting.</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sites</h2>
+    <div class="grid">
+      <a class="card ufo" href="/skywatch-ledger/">
+        <span class="tag">UFO / UAP</span>
+        <h3>Skywatch Ledger</h3>
+        <p>The latest official UAP numbers, how to rule out the usual suspects, and how to report a sighting. New post daily.</p>
+        <div class="latest" data-feed="/skywatch-ledger/blog/"><span>Latest post</span><em>Loading…</em></div>
+      </a>
+      <a class="card print" href="/filament-field-guide/">
+        <span class="tag">3D printing</span>
+        <h3>Filament Field Guide</h3>
+        <p>Print temperatures for six filaments, fixes for failed prints, and a daily print log.</p>
+        <div class="latest" data-feed="/filament-field-guide/blog/"><span>Latest post</span><em>Loading…</em></div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Filament discount</h2>
+    <div class="code">
+      <b>VINCENTGALLARDO</b>
+      <p>Use this code at checkout on Polymaker filament. It supports these sites at no extra cost to you.</p>
+      <a href="https://shop.polymaker.com/" target="_blank" rel="sponsored noopener">Shop Polymaker →</a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Some links are affiliate links. If you buy through them, I may earn a commission at no added cost to you. · <a href="/privacy.html">Privacy policy</a></div></footer>
+
+<script>
+document.querySelectorAll('[data-feed]').forEach(function (box) {
+  fetch(box.getAttribute('data-feed')).then(function (r) { return r.text(); }).then(function (html) {
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    var item = doc.querySelector('.post-item h3 a');
+    var em = box.querySelector('em');
+    if (item) em.textContent = item.textContent; else box.hidden = true;
+  }).catch(function () { box.hidden = true; });
+});
+</script>
+</body>
+</html>
