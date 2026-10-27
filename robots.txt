@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 Sitemap: https://vtg0989-sudo.github.io/sitemap.xml
-Sitemap: https://vtg0989-sudo.github.io/skywatch-ledger/sitemap.xml
+Sitemap: https://skywatchledger.com/sitemap.xml
 Sitemap: https://vtg0989-sudo.github.io/filament-field-guide/sitemap.xml
 Sitemap: https://vtg0989-sudo.github.io/hodl-hindsight/sitemap.xml
